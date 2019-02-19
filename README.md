@@ -19,7 +19,7 @@ This repository is a Matlab implementation of joint optimization on pupils track
   <img src="https://github.com/GentleDell/EyeposeOptimization/blob/master/data/jointlyoptimal_eyepose_0_11s.png" title="after filtering" width="400" /> 
 </p>
 
-3. Since data come one by one from the [eyelike](https://github.com/trishume/eyeLike), a "streaming" version of optimization is provided, which can optimize data one by one. The average time of each optimization is around 0.05 seconds, decided by the number of data that will be optimized together and the value of the regularization term (in the loss function, Gama). The left figure is the results of streaming optimization with the average time of 0.05s per data and the right is the results that with the average time of 0.07s per data.
+3. Since data come one by one from the [eyelike](https://github.com/trishume/eyeLike), a "streaming" version of optimization is provided, which can optimize data one by one. The average time of each optimization is around 0.03 seconds, decided by the number of data that will be optimized together, the max iterations and the value of the regularization term (in the loss function, Gama). The left figure is the results of streaming optimization with the average time of 0.05s per data and the right is the results that with the average time of 0.07s per data.
 <p float="left">
   <img src="https://github.com/GentleDell/EyeposeOptimization/blob/master/data/jointlyoptimal_eyepose_streaming_0_05.png" title="avg time = 0.05s" width="400" />
   <img src="https://github.com/GentleDell/EyeposeOptimization/blob/master/data/jointlyoptimal_eyepose_streaming_0_07s.png" title="avg time = 0.07s" width="400" /> 
