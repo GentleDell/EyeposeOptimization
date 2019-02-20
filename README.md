@@ -27,8 +27,8 @@ This repository is a Matlab implementation of joint optimization on pupils track
 
 4. We implemented the streaming optimization algorithm in Cpp and the optimized eyeposes are shown below. The left figure corresponds to maxiteration of 1000 while the maxiteration of the left figure is 300. However, the fastest version in Cpp takes around 0.1 ms per data, which is much slower than Matlab codes. Therefore, the next step is to accelerate the Cpp codes.
 <p float="left">
-  <img src="https://github.com/GentleDell/EyeposeOptimization/blob/master/data/jointlyoptimal_eyepose_streaming_0_05.png" title="maxiteration = 1000" width="400" />
-  <img src="https://github.com/GentleDell/EyeposeOptimization/blob/master/data/jointlyoptimal_eyepose_streaming_0_07s.png" title="maxiteration = 300" width="400" /> 
+  <img src="https://github.com/GentleDell/EyeposeOptimization/blob/master/data/jointlyoptimal_eyepose_streaming_0_38sCpp.png" title="maxiteration = 1000" width="400" />
+  <img src="https://github.com/GentleDell/EyeposeOptimization/blob/master/data/jointlyoptimal_eyepose_streaming_0_1sCpp.png" title="maxiteration = 300" width="400" /> 
 </p>
 
 ## Codes structure
