@@ -50,7 +50,7 @@ avg_eyespeed  = 0.5; % my eyes, when I focus on something.
 initial_frames = 15;
 
 % max iterations
-maxiters = 1000;
+maxiters = 300;
 
 % regularization parameter
 gama = 5;  % regularization parameter
